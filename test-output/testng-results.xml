@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="219" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="219" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+      <class name="hellomaven.RestAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:hellomaven.RestAPITest@13deb50e]" name="deleteTwitter" duration-ms="16" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postjira()[pri:0, instance:hellomaven.RestAPITest@13deb50e]" name="postjira" duration-ms="3" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postjira -->
+      </class> <!-- hellomaven.RestAPITest -->
+      <class name="hellomaven.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:hellomaven.AppiumTest@31ef45e3]" name="IOSApps" duration-ms="3" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="nativeAppAndroid()[pri:0, instance:hellomaven.AppiumTest@31ef45e3]" name="nativeAppAndroid" duration-ms="2" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+      </class> <!-- hellomaven.AppiumTest -->
+      <class name="hellomaven.seleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:hellomaven.seleniumTest@57fffcd7]" name="browserAutomation" duration-ms="2" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:hellomaven.seleniumTest@57fffcd7]" name="elementsUI" duration-ms="2" started-at="2020-06-01T16:43:32Z" finished-at="2020-06-01T16:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- hellomaven.seleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
